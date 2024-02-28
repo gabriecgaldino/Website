@@ -1,0 +1,66 @@
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#presentation {
+    font-size: 4rem;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#navbar {
+    position: absolute;
+    padding-right: 20px;
+    right: 0;
+
+    width: 20%;
+
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#options {
+    display: none;
+    color: white;
+    background-color: #3c3c3c;
+    border-radius: 5%;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+
+li {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    font-size: 2rem;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease;
+    /* Adiciona uma transição suave ao girar as barras */
+
+    float: right;
+}
+
+.bar {
+    width: 40px;
+    height: 5px;
+    background-color: #3c3c3c;
+    margin: 5px 0;
+
+    border-radius: 30px;
+}
