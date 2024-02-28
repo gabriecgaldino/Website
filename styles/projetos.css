@@ -1,0 +1,49 @@
+#projetos {
+    width: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+#show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.projeto {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    background-color: #fcfcfc;
+}
+
+.projeto>a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.projeto>a:hover {
+    font-size: 1.5rem;
+    color: rgb(44, 44, 44);
+}
+
+
+
+#projetos>h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#projetos>ul {
+    width: 80%;
+}
+
+#projetos>ul>li {
+    background-color: rgb(55, 55, 68);
+}

@@ -1,4 +1,4 @@
-const div = document.querySelector('section')
+const div = document.getElementById('show')
 
 function getApiGitHub(){
     fetch('https://api.github.com/users/gabriecgaldino/repos')
@@ -15,7 +15,7 @@ function getApiGitHub(){
 
                 child.innerHTML = `
                     
-                <h4> <a href='https://github.com/gabriecgaldino/${item.name}'>${item.name.toUpperCase()}</a></h4>
+                <div class='projeto'> <a href='https://github.com/gabriecgaldino/${item.name}'>${item.name.toUpperCase()}</a></div>
                 `
             
             div.appendChild(child)

@@ -2,13 +2,14 @@
     width: auto;
     height: auto;
 
-    padding: 30px 15px;
+    margin: 30px 15px;
+    padding-bottom: 30px;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    border-bottom: solid 3px #3c3c3c;
+    border-bottom: solid 2px #3c3c3c;
 }
 
 .habilidade {
