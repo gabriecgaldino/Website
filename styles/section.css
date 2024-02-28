@@ -1,0 +1,53 @@
+section {
+    width: auto;
+    height: auto;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    margin-right: 15px;
+    margin-left: 15px;
+
+    display: flex;
+
+    border-bottom: solid 2px #3c3c3c;
+}
+
+section>div {
+    width: 50%;
+}
+
+#foto_principal {
+    width: 50%;
+
+    padding: 3px;
+
+    border-radius: 50%;
+    border: solid 5px #3c3c3c;
+}
+
+#me {
+    text-align: left;
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+#me>button {
+    width: 120px;
+    height: 35px;
+
+    color: white;
+    background-color: #3a5af9;
+
+    font-weight: 600;
+    font-size: 16px;
+
+    border-radius: 8px;
+    border: solid 2px #3c3c3c;
+}
+
+#aboutme {
+    text-align: justify;
+    padding-right: 20px;
+    margin-top: 10px;
+}

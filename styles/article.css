@@ -1,0 +1,40 @@
+#habilidades {
+    width: auto;
+    height: auto;
+
+    padding: 30px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: solid 3px #3c3c3c;
+}
+
+.habilidade {
+    width: 20%;
+    height: 100px;
+
+    background-color: #ff9d14;
+    color: white;
+
+    border-radius: 10px;
+    border: solid 3px black;
+
+}
+
+.habilidade>h3 {
+
+    color: #282828;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.habilidade>span {
+    padding-left: 10px;
+    padding-right: 10px;
+}

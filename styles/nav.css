@@ -1,7 +1,15 @@
 nav {
     padding: 15px;
+
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: space-between;
+
+
+    background-color: #3c3c3c;
+    color: white;
+
 }
 
 #presentation {
@@ -13,6 +21,7 @@ nav {
 }
 
 #navbar {
+    display: none;
     position: absolute;
     padding-right: 20px;
     right: 0;
@@ -32,14 +41,14 @@ nav {
 
 }
 
-ul {
+#navbar>ul {
     list-style: none;
     margin: 0;
     padding: 20px;
     text-align: right;
 }
 
-li {
+#navbar>li {
     display: block;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -63,4 +72,16 @@ li {
     margin: 5px 0;
 
     border-radius: 30px;
+}
+
+#deskOptions {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    margin-top: 25px;
 }

@@ -9,14 +9,23 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="/styles/reponsive.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/article.css">
 </head>
 
 <body>
     <nav>
         <div id="presentation">
             <h2>
-                programmer
+                developer
             </h2>
+        </div>
+        <div id="deskOptions">
+            <ul id="deskUl">
+                <li class="option">Projetos</li>
+                <li class="option">Experiências</li>
+                <li class="option">Contato</li>
+            </ul>
         </div>
         <div id="navbar">
             <div id="menu">
@@ -35,12 +44,28 @@
         </div>
     </nav>
     <section>
-        <img src="/assets/1684555542555-removebg-preview.png" alt="Image Gabriel">
+        <div>
+            <img src="/assets/1684555542555-removebg-preview.png" alt="Image Gabriel" id="foto_principal">
+        </div>
         <div id="me">
             <h1> Whats'up, I'm Gabriel! </h1>
             <button onClick="showAboutMe()">About me</button>
         </div>
     </section>
+    <div id="habilidades">
+        <article class="habilidade">
+            <h3>Habilidade 1</h3>
+            <span>Descrição da Habilidade</span>
+        </article>
+        <article class="habilidade">
+            <h3>Habilidade 2</h3>
+            <span>Descrição da Habilidade</span>
+        </article>
+        <article class="habilidade">
+            <h3>Habilidade 3</h3>
+            <span>Descrição da Habilidade</span>
+        </article>
+    </div>
 
     <script src="/scripts/events.js"></script>
     <!--<script src="./scripts/api.js"></script>-->
