@@ -13,8 +13,8 @@
 }
 
 .projeto {
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,16 +24,13 @@
 }
 
 .projeto>a {
-    text-decoration: none;
     color: #282828;
+    text-decoration: none;
 }
 
 .projeto>a:hover {
-    font-size: 1.5rem;
-    color: rgb(44, 44, 44);
+    color: rgb(255, 19, 19);
 }
-
-
 
 #projetos>h3 {
     font-size: 40px;

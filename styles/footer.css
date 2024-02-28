@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+
+    background-color: #3c3c3c;
+}
+
+footer>div {
+    width: 50%;
+    position: relative;
+
+    border-left: solid 3px #282828;
+    height: 130px;
+
+    padding: 10px;
+
+    text-align: justify;
+
+    top: 50%;
+    transform: translateY(-50%);
+    fill: white;
+    color: white;
+}
+
+
+svg {
+    width: 40px;
+}
+
+#wpp {
+    width: 60px;
+
+    position: fixed;
+
+    bottom: 10px;
+    right: 10px;
+}
