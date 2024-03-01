@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+    body {
+        width: 100vw !important;
+    }
+
+    #presentation {
+        font-size: 2rem !important;
+    }
+
+    #deskOptions {
+        display: none;
+    }
+
+    #navbar {
+        display: block !important;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section>div {
+        width: 100%;
+    }
+
+    #foto_principal {
+        width: 100%;
+    }
+
+    #me {
+        width: 100%;
+        text-align: center;
+    }
+
+    #me>h1 {
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+}

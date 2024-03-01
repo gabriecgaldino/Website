@@ -5,6 +5,10 @@ footer {
     display: flex;
 
     background-color: #3c3c3c;
+
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 footer>div {
