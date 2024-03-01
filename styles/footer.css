@@ -15,7 +15,6 @@ footer>div {
     width: 50%;
     position: relative;
 
-    border-left: solid 3px #282828;
     height: 130px;
 
     padding: 10px;
@@ -28,6 +27,13 @@ footer>div {
     color: white;
 }
 
+#socialmedias {
+    width: 100%;
+}
+
+#socialmedias>ul {
+    width: 90%;
+}
 
 svg {
     width: 40px;
