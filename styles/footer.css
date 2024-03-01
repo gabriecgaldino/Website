@@ -5,13 +5,16 @@ footer {
     display: flex;
 
     background-color: #3c3c3c;
+
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 footer>div {
-    width: 50%;
+    width: 50% !important;
     position: relative;
 
-    border-left: solid 3px #282828;
     height: 130px;
 
     padding: 10px;
@@ -24,6 +27,13 @@ footer>div {
     color: white;
 }
 
+#socialmedias {
+    width: 100%;
+}
+
+#socialmedias>ul {
+    width: 90%;
+}
 
 svg {
     width: 40px;

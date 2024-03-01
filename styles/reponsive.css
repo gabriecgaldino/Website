@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+    body {
+        width: 100vw !important;
+    }
+
+    #presentation {
+        font-size: 2rem !important;
+    }
+
+    #deskOptions {
+        display: none;
+    }
+
+    #navbar {
+        display: block !important;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section>div {
+        width: 100% !important;
+    }
+
+    #foto_principal {
+        width: 70%;
+    }
+
+    #me {
+        width: 100%;
+    }
+
+    #me>h1 {
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    #me>button {
+        margin-left: 20%;
+    }
+
+    #aboutme {
+        width: 100% !important;
+    }
+
+    #aboutme>p {
+        padding: 10px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 17px;
+    }
+
+    #habilidades {
+        flex-direction: column;
+    }
+
+    .habilidade {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .projeto {
+        width: 250px !important;
+    }
+
+    footer {
+        height: 150px !important;
+    }
+
+    footer> :nth-child(1) {
+        display: none !important;
+    }
+
+    footer>div {
+        border: none !important;
+    }
+
+    #socialmedias,
+    #socialmedias>ul {
+        width: 100% !important;
+    }
+
+}
