@@ -76,6 +76,10 @@
 
     footer>div {
         border: none !important;
+    }
+
+    #socialmedias,
+    #socialmedias>ul {
         width: 100% !important;
     }
 

@@ -12,7 +12,6 @@ body {
 
     text-align: center;
 
-    width: 100vw;
     height: 100vw;
     /* Add your background pattern here */
     background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
