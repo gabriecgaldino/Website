@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@100&family=Montserrat:wght@100&display=swap');
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -12,4 +13,10 @@ body {
     height: 93%;
 
     text-align: center;
+
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
+    background-size: 50px 100px;
 }

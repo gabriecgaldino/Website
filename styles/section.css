@@ -5,12 +5,15 @@ section {
     padding-top: 5%;
     padding-bottom: 5%;
 
+    margin-top: 15px;
     margin-right: 15px;
     margin-left: 15px;
 
     display: flex;
 
-    border-bottom: solid 2px #3c3c3c;
+    border: solid 1px #3c3c3c;
+
+    background-color: #f2f2f2;
 }
 
 section>div {
@@ -18,36 +21,46 @@ section>div {
 }
 
 #foto_principal {
-    width: 50%;
-
-    padding: 3px;
-
     border-radius: 50%;
-    border: solid 5px #3c3c3c;
 }
 
 #me {
     text-align: left;
     font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 9px;
     margin-top: 10%;
 }
 
 #me>button {
-    width: 120px;
-    height: 35px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #252525;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.5s ease-in-out;
 
-    color: white;
-    background-color: #3a5af9;
+    letter-spacing: 4px;
+}
 
-    font-weight: 600;
-    font-size: 16px;
-
-    border-radius: 8px;
-    border: solid 2px #3c3c3c;
+#me>button:hover {
+    background-color: #3c3c3c;
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
 }
 
 #aboutme {
     text-align: justify;
     padding-right: 20px;
     margin-top: 10px;
+
+    width: 80%;
+
+    letter-spacing: 2px;
+    line-height: 20px;
 }

@@ -10,6 +10,8 @@ nav {
     background-color: #3c3c3c;
     color: white;
 
+
+
 }
 
 #presentation {
@@ -76,6 +78,7 @@ nav {
 
 #deskOptions {
     width: 50%;
+    letter-spacing: 3px;
 }
 
 ul {
