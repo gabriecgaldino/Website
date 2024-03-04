@@ -41,19 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var mobileMenu = document.getElementById('navbar');
     var options = document.getElementById('options');
     var bars = document.querySelectorAll('.bar');
-    var menu = document.getElementById('menu')
 
     mobileMenu.addEventListener('click', function () {
-        options.style.display = options.style.display === 'none' ? 'block' : 'none';
+        options.style.display = options.style.display === 'none' ? 'flex' : 'none';
 
-        rotateBars();
-        function rotateBars(isX) {
-            var isOpen = options.style.display === 'block';
-            var rotation = isOpen ? '45deg' : '0';
-    
-            bars[0].style.transform = 'rotate(' + rotation + ')';
-            bars[1].style.opacity = isOpen ? '0' : '1';
-            bars[2].style.transform = 'rotate(' + (-rotation) + ')';
-        }
     });
 });

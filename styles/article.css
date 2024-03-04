@@ -1,4 +1,5 @@
-#habilidades {
+.habilidades,
+.skills {
     width: auto;
     height: auto;
 
@@ -9,12 +10,40 @@
     justify-content: space-around;
 }
 
+.skills,
+.habilidades {
+    background: rgb(40, 40, 40);
+    background: linear-gradient(24deg, rgba(40, 40, 40, 1) 0%, rgba(60, 60, 60, 1) 41%, rgba(227, 227, 227, 0.8884803921568627) 100%);
+    height: 250px;
+
+    border-radius: 20px;
+}
+
+.habilidades {
+    height: 450px;
+    padding: 0 30px;
+}
+
+.skill:hover {
+    -xpedu-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all ease 0.3s;
+}
+
+.skill:disabled {
+    -xpedu-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: all ease 0.3s;
+}
+
 .habilidade {
-    color: white;
+    color: #f2f2f2;
     position: relative;
     font-family: sans-serif;
 
-    width: 11.875em;
+    width: 14.875em;
     height: 15.875em;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.074);
@@ -45,4 +74,24 @@
 .habilidade>span {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#experiencias>ul {
+    margin-top: 0 !important;
+}
+
+#experiencias>li {
+    text-align: justify;
+    height: auto;
+}
+
+.cargo {
+    font-size: 18px;
+}
+
+.description {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
 }

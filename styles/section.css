@@ -2,26 +2,31 @@ section {
     width: auto;
     height: auto;
 
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding: 5% 0;
+    margin: 15px;
 
     display: flex;
+
+    justify-content: center;
 
     border: solid 1px #3c3c3c;
 
     background-color: #f2f2f2;
 }
 
-section>div {
-    width: 50%;
+
+section:nth-child(0) {
+    width: 40%;
 }
 
+section:nth-child(1) {
+    width: 60%;
+}
+
+
+
 #foto_principal {
-    border-radius: 50%;
+    height: 300px;
 }
 
 #me {
